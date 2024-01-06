@@ -1,0 +1,134 @@
+/* barra inicial */
+
+.navbar{
+    padding: 10px;
+    background-color: #fff;
+}
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-link{
+    color: #5c3a72;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.hero{
+    background-color:  #fff;
+    min-height: 450px;
+    text-align: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+}
+
+.photo-principal-sofi{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.hero-principal{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+.hero-principal h2{
+    font-size: 1.5rem;
+    color: #ffde59;
+    font-weight: bold;
+    font-family: 'Amatic SC', sans-serif;
+}
+.hero-inferior-img{
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+}
+
+/* clases generales */
+
+.section-dark{
+    color: aliceblue;
+    background-color: #5c3a72;
+}
+
+.section-light{
+    background-color: aliceblue;
+    color: #5c3a72;
+}
+
+.section-title{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.section-text{
+    font-size: 1.2rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family: 'Amatic SC', sans-serif;
+    font-weight: bold;
+    color: #5c3a72;
+}
+
+/* seccion mi historia */
+
+
+.mi-historia{
+    height: 500px;
+    padding: 10px;
+    
+}
+.mi-historia .container{
+    max-width: 600px;
+    text-align: center;
+}
+
+/* seccion mi familia */
+
+.familia{
+    padding: 40px 40px 60px 40px;
+    
+}
+
+.familia i{
+    font-size: 2.5rem;
+    color: #fe88f7;
+    padding:  8px 19px;
+}
+
+.familia .column{
+    padding: 20px;
+    border: 1px solid #ba99cd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+}
+
+.familia .column:hover{
+    color: #50226f;
+    background-color: #ffde59;
+}
+
+
+@media screen and (max-width: 767px){
+    .navbar-brand{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 700px){
+    .hero-inferior-img{
+        max-width: 600px;
+    }
+}
