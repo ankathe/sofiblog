@@ -148,7 +148,6 @@ h2{
     height: 100%;
     width: 100%;
     padding: 20px;
-    border-radius: 50px;
     display: block;
     transition: all 0.2s ease;
 }
@@ -172,6 +171,8 @@ h2{
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 0;
+    color: #f0f8ff;
+    font-family: 'Amatic SC', sans-serif;
 }
 
 .evento{
@@ -186,9 +187,15 @@ h2{
     opacity: 0.8;
 }
 
+.overlay .icons-container{
+    display: flex;
+}
 
-
-
+.overlay i{
+    color: #4dedc0;
+    font-size: 60px;
+    margin: 10px;
+}
 
 @media screen and (max-width: 767px){
     .navbar-brand{
@@ -201,3 +208,4 @@ h2{
         max-width: 600px;
     }
 }
+
