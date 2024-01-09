@@ -285,36 +285,30 @@ h3{
     transition: all 0.2s ease-in-out;
 }
 
-
-@media screen and (min-width: 1199px){
+@media screen and (min-width: 767px){
     .contact .container{
-        width: 1980px;
+        max-width: 750px;
+    }
+    .eventos{
+        margin-bottom: 50px;
     }
 }
 
 @media screen and (min-width: 991px){
     .contact .container{
-        width: 980px;
+        max-width: 950px;
     }
 }
 
-
-@media screen and (min-width: 767px){
-    .contact .rectangle{
-        margin-top: -3rem;
+@media screen and (min-width: 1199px){
+    .contact .container{
+        max-width: 1150px;
     }
 }
 
 @media screen and (max-width: 767px){
     .navbar-brand{
         display: none;
-    }
-    .contact .container{
-        width: 750px;
-    }
-
-    .contact .rectangle{
-        margin-top: -3rem;
     }
 }
 
