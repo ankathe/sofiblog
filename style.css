@@ -45,7 +45,6 @@ section{
 }
 
 /* clases generales */
-
 .section-dark{
     background-color: #5c3a72;
 }
@@ -54,25 +53,25 @@ section{
     background-color: aliceblue;
 }
 
-.section-title{
-    
-}
-
 .section-text{
     font-size: 1.2rem;
     font-family: 'Quicksand', sans-serif;
+    color: aliceblue;
 }
 
 .section-description{
     color: #000;
     font-size: 1.2rem;
+    text-align: center;
 }
 
 h1{
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-family: 'Amatic SC', sans-serif;
     font-weight: bold;
     color: #5c3a72;
+    text-align: center;
+    padding: 15px 0;
 }
 
 h2{
@@ -82,16 +81,28 @@ h2{
     padding: 15px 0;
 }
 
+h3{
+    font-size: 2.5rem;
+    font-family: 'Salsa', 'cursive';
+    font-weight: bold;
+    color: #50226f;
+    text-align: center;
+    padding: 15px 0;
+}
+
 .text-dark{
     color: #50226f;
 }
 
 .text-lightme{
     color: #ffde59;
+    padding: 10px;
 }
 
 .p-dark{
     color: #50226f;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem;
 }
 
 .p-light{
@@ -99,15 +110,12 @@ h2{
     padding: 20px;
 }
 
-
 /* seccion mi historia */
-
-
 .mi-historia{
     height: 500px;
     padding: 10px;
-    
 }
+
 .mi-historia .container{
     max-width: 600px;
     text-align: center;
@@ -115,7 +123,6 @@ h2{
 
 
 /* seccion mi familia */
-
 .familia{
     padding: 40px 40px 60px 40px;
     
@@ -143,6 +150,12 @@ h2{
 }
 
 /* sectioneventos */
+.eventos{
+    width: 100%;
+    padding: 80px 0;
+    max-height: 1000px;
+    align-items: center;
+}
 
 .eventos img{
     height: 100%;
@@ -150,11 +163,19 @@ h2{
     padding: 20px;
     display: block;
     transition: all 0.2s ease;
+    object-fit: cover;
 }
 
 .eventos-container{
-    padding-top: 60px;
-    margin-bottom:40px;
+    padding-top: 30px;
+    margin-bottom:30px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px ;
+}
+.event-wrapper{
+    justify-content: center;
+    display: flex;
 }
 
 .overlay{
@@ -177,6 +198,10 @@ h2{
 
 .evento{
     position: relative;
+    max-width: 600px;
+    max-height: 400px;
+    height: 100%;
+    width: 100%;
 }
 
 .evento:hover img{
@@ -192,14 +217,104 @@ h2{
 }
 
 .overlay i{
-    color: #4dedc0;
+    color: #ef36b5;
     font-size: 60px;
     margin: 10px;
+}
+
+.icons-container{
+    align-items: center;
+    justify-content: center;
+}
+
+/* terapias */
+.terapias{
+    padding: 40px 40px 60px 40px;
+    align-items: center;
+}
+
+.terapias .carousel{
+    max-width: 800px;
+}
+.carousel-item{
+    height: 600px;
+}
+
+/* contacto */
+.contact .container{
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.contact .rectangle{
+    margin-top: -5rem;
+    background-color: rgb(205, 240, 205);
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;
+}
+
+.contact .row{
+    width: 100%;
+    display: flex;
+    align-items:center;
+}
+
+.contact button{
+    color: #ffde59;
+    font-weight: bold;
+    background-color: #ba99cd;
+    border: 2px solid #50226f;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+    font-family: 'Quicksand', sans-serif;
+    transition: all 0.2s ease-in-out;
+}
+
+.contact button:hover{
+    background-color: #ffde59;
+    color: #50226f;
+    transition: all 0.2s ease-in-out;
+}
+
+.contact button i{
+    color: #50226f;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+
+
+@media screen and (min-width: 1199px){
+    .contact .container{
+        width: 1980px;
+    }
+}
+
+@media screen and (min-width: 991px){
+    .contact .container{
+        width: 980px;
+    }
+}
+
+
+@media screen and (min-width: 767px){
+    .contact .rectangle{
+        margin-top: -3rem;
+    }
 }
 
 @media screen and (max-width: 767px){
     .navbar-brand{
         display: none;
+    }
+    .contact .container{
+        width: 750px;
+    }
+
+    .contact .rectangle{
+        margin-top: -3rem;
     }
 }
 

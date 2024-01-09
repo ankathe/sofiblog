@@ -90,16 +90,54 @@
         </div>
     </div>
     </section>
-    <section class="eventos section-dark d-flex flex-column justify-content-center text-center">
-      <h2 class="text-lightme"> Eventos por mi causa</h2>
-      <p class="p-light section-text">Estos son algunos de los eventos que se han realizado para recaudar fondos para mi tratamiento con familiares y amigos</p>
+    <section class="terapias section-dark">
+    <h2 class="text-lightme">Mis Terapias</h2>
+    <h2 class="section-text text-center">Estas son las algunas de las terapias magicas que permiten que nuestra princesa avance cada dia....</h2>  
+    <div id="terapias-carousel" class="carousel carousel-dark slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#terapias-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#terapias-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#terapias-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#terapias-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#terapias-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/sofiejercicios7.JPG" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/sofiejercicios1.JPG" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/sofiejercicios11.JPG" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/sofiejercicios13.JPG" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/sofiejercicios.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#terapias-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#terapias-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+
+    </section>
+    <section class="eventos section-light d-flex flex-column justify-content-evenly">
+      <h1> Eventos por mi causa</h1>
       <div class="container text-center eventos-container">
         <div class="row">
-          <div class="col-12 col-md-6 col-lg-4">
+          <div class="col-12 col-md-12 col-lg-6 event-wrapper">
             <div class="evento">
               <img src="images/teamsofibingo.jpeg" alt="">
               <div class="overlay">
-                <p>Bingo bazaar</p>
+                <h3>Bingo bazaar</h3>
                 <div class="icons-container">
                   <a href="https://www.instagram.com/reel/CytwBUJOo3_/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank ">
                     <i class="bi bi-instagram"></i>
@@ -108,13 +146,13 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-4">
+          <div class="col-12 col-md-12 col-lg-6 event-wrapper">
             <div class="evento">
               <img src="images/sofisnovena.png" alt="">
               <div class="overlay">
-                <p>Sofi's Novena</p>
+                <h3>Sofi's Novena</h3>
                 <div class="icons-container">
-                  <a href="https://www.instagram.com/reel/CytwBUJOo3_/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank ">
+                  <a href="https://www.instagram.com/reel/C1HYKJVOPLV/?utm_source=ig_web_copy_link" target="_blank ">
                     <i class="bi bi-instagram"></i>
                   </a>
                 </div>
@@ -124,6 +162,25 @@
         </div>
       </div>
     </section>
+    <section class="contact section-dark">
+      <div class="conainer">
+        <div class="container text-center rectangle d-flex justify-content-center">
+          <div class="row">
+            <div class="col-12 col-md-4"><h1>Hablemos!</h1></div>
+            <div class="col-12 col-md-4"> <p class="p-dark">Para donaciones</p> </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:wcruzf@gmail.com">
+                <button type="button">
+                  Contacto
+                  <i class="bi bi-envelope-paper-heart"></i> 
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>
