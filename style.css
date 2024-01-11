@@ -115,12 +115,12 @@ h3{
 .p-pink {
     color: #ef36b5 !important;
     font-family: 'Quicksand', sans-serif !important;
-    font-size: 2rem !important;
+    font-size: 1.5rem !important;
 }
 
 /* seccion mi historia */
 .mi-historia{
-    height: 400rem;
+    min-height: 600px;
     padding: 10%;
 }
 
@@ -355,7 +355,7 @@ h3{
     }
 } */
 
-@media screen and (min-width: 375px){
+/* @media screen and (min-width: 375px){
     .mi-historia{
         height: 5000px;
     }
@@ -363,7 +363,7 @@ h3{
     .mi-historia .container{
         min-width: 90%;
     }
-}
+} */
 @media screen and (max-width: 767px){
     .navbar-brand{
         display: none;
