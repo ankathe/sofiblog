@@ -136,8 +136,8 @@ h3{
 }
 
 .familia i{
-    font-size: 2.5rem;
-    color: #fe88f7;
+    font-size: 3rem;
+    color: #ef36b5;
     padding:  8px 19px;
 }
 
@@ -216,7 +216,7 @@ h3{
 }
 
 .evento:hover .overlay{
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .overlay .icons-container{
@@ -224,8 +224,8 @@ h3{
 }
 
 .overlay i{
-    color: #ef36b5;
-    font-size: 60px;
+    color: #50226f;
+    font-size: 5rem;
     margin: 10px;
 }
 
