@@ -120,12 +120,12 @@ h3{
 
 /* seccion mi historia */
 .mi-historia{
-    height: 500px;
-    padding: 10px;
+    height: 400rem;
+    padding: 10%;
 }
 
 .mi-historia .container{
-    max-width: 600px;
+    max-width: 100%;
     text-align: center;
 }
 
@@ -133,7 +133,6 @@ h3{
 /* seccion mi familia */
 .familia{
     padding: 40px 40px 60px 40px;
-    
 }
 
 .familia i{
@@ -356,6 +355,15 @@ h3{
     }
 } */
 
+@media screen and (min-width: 375px){
+    .mi-historia{
+        height: 5000px;
+    }
+
+    .mi-historia .container{
+        min-width: 90%;
+    }
+}
 @media screen and (max-width: 767px){
     .navbar-brand{
         display: none;
