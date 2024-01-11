@@ -97,6 +97,8 @@ h3{
 .text-lightme{
     color: #ffde59;
     padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2rem;
 }
 
 .p-dark{
@@ -108,6 +110,12 @@ h3{
 .p-light{
     color: #f0f8ff;
     padding: 20px;
+}
+
+.p-pink {
+    color: #ef36b5 !important;
+    font-family: 'Quicksand', sans-serif !important;
+    font-size: 2rem !important;
 }
 
 /* seccion mi historia */
@@ -284,7 +292,49 @@ h3{
     font-size: 1.3rem;
     transition: all 0.2s ease-in-out;
 }
+/* footer */
+.footer{
+    min-height: 250px;
+    padding: 20px;
+}
 
+.footer-logo{
+    height: 5%;
+    width: 5%;
+    margin: 10px;
+}
+
+.footer-text{
+    font-size: 1.5rem;
+    padding: 20px;
+    font-family: 'Quicksand';
+    margin-bottom: 5px;
+}
+.icons-social{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid #cdf0cd;
+    border-radius: 50%;
+    background-color: #ffde59;
+    transition: all 0.2 ease-in;
+}
+
+.icons-social:hover{
+    background-color: #ba99cd;
+}
+
+.icons-social i{
+    color: #50226f;
+    transition: all 0.2 ease-in;
+}
+
+
+/* 
 @media screen and (min-width: 767px){
     .contact .container{
         max-width: 750px;
@@ -304,11 +354,14 @@ h3{
     .contact .container{
         max-width: 1150px;
     }
-}
+} */
 
 @media screen and (max-width: 767px){
     .navbar-brand{
         display: none;
+    }
+    .carousel-item{
+        max-height: 300px;
     }
 }
 
